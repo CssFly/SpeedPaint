@@ -14,8 +14,6 @@ $root = "img";
 <meta name="description" content="Use our free online drawing tools to create animated speed paint drawings and show off your artwork in the public gallery." />
 <meta name="revisit-after" content="7 days" />
 
-<!--<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> -/-->
-
 <style type="text/css">
 
 body, html{ height:100%; }
@@ -125,7 +123,7 @@ read_Dir($root, $edit);
 ?>
 <br clear="all" />
 
-<div class="hint">SpeedPaint is an API example of <a href="http://www.queeky.com/api">QueekyPaint's API</a></div>
+<div class="hint">SpeedPaint is an API example of <a href="http://www.queeky.com/api">QueekyPaint's API</a> | download all <a href="https://github.com/CssFly/SpeedPaint">sources on GITHUB</a></div>
 
 </div>
 
