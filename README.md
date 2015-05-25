@@ -5,7 +5,9 @@ http://www.queeky.com/api
 First you must setup your account and get your API key here:
 http://www.queeky.com/api/settings
 
-The example contains three files:
+Once you got your API key, you can setup SpeedPaint:
+
+This package contains three files:
 
 1. index.php -> the page that serves the drawing tools via API
 2. submit.php -> the script that saves drawings from app to gallery
