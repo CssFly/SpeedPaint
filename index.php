@@ -55,7 +55,7 @@ body,html{ padding:0; margin:0; height:100%; overflow-x:hidden; line-height: 1em
 <body>
 
   <iframe scrolling="no" width="100%" height="95%" frameborder="0" border="0" src="http://www.queeky.com/app?apikey=b689fb2d0d58900c310ce4edd1e10a13&amp;backgroundColor=000000"></iframe>
-  <div class="teaser" title="Learn more about QueekyPaint API"><a href="/queeky/gallery.php">Browse SpeedPaint Gallery</a><a href="http://www.queeky.com/api"><span class="s1">SpeedPaint.info is build on QueekyPaint API</span><span class="s2">Learn more about QueekyPaint API ...</span></a></div>
+  <div class="teaser" title="Learn more about QueekyPaint API"><a href="/queeky/gallery.php">Browse SpeedPaint Gallery</a><a href="https://github.com/CssFly/SpeedPaint">Browse source on GITHUB</a></div>
 
 </body>
 </html>
