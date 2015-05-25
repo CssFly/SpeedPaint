@@ -1,5 +1,9 @@
 # SpeedPaint
 Example for how to use Queeky's API
+http://www.queeky.com/api
+
+First you must setup your account and get your API key here:
+http://www.queeky.com/api/settings
 
 The example contains three files:
 
