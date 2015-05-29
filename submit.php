@@ -34,7 +34,12 @@ if (isset($_FILES['Filedata2']))
             //die('error');
         }
     }
-    /* do something with uploaded data */
+    $destination_qky = "./img/source.qky"; /* path to store qky */
+    if (isset($_FILES['Filedata'])) /* try to upload .qky if available*/
+    {
+       @move_uploaded_file($_FILES['Filedata']['tmp_name'], $destination_qky);
+    }
+    /* try to upload the final JPG */
     if(move_uploaded_file($_FILES['Filedata2']['tmp_name'], $destination))
     {
     	print "done=ok&message=Drawing has been saved to SpeedPaint gallery. You will be redirected in a few seconds ...&redirect=http://www.speedpaint.info/queeky/gallery.php"; /* notify tha app that saving succeed */
